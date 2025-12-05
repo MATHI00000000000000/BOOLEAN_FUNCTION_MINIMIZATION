@@ -1,4 +1,5 @@
 # BOOLEAN_FUNCTION_MINIMIZATION
+**Date:05/12/2025**
 
 **AIM:**
 
@@ -32,21 +33,234 @@ Hardware – PCs, Cyclone II , USB flasher
 
 
 **Program:**
+Boolean Function
+------------------------------------------------
+F(A,B,C,D)=AB+CD+AD
+```
 
-/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
+module boolean_function_4var (
+    input  wire A,
+    input  wire B,
+    input  wire C,
+    input  wire D,
+    output wire F
+);
 
-Developed by: RegisterNumber:*/
+assign F = (~A & B) | (C & D) | (A & ~D);
+
+endmodule
+
+```
+/* Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+
+Developed by:Mathiyazhagan RegisterNumber:25018155*/
+
+**Output:**
+<img width="932" height="547" alt="diagram 2 ex" src="https://github.com/user-attachments/assets/36d4fcba-4a92-4dfb-9f06-6da4b470b976" />
 
 
 **RTL realization**
-
-**Output:**
-
 **RTL**
+![ex2 output](https://github.com/user-attachments/assets/b3a37f44-6963-45ad-9698-3ae4bf803f56)
 
 **Timing Diagram**
 
 **Result:**
-
 Thus the given logic functions are implemented using and their operations are verified using Verilog programming.
+.
+.
+.
+
+.
+
+.
+.
+
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+
+.
+.
+
+.
+.
+.
+
+.
+..
+
+.
+.
+
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+
+.
+
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+
+
+
+.
+.
+.
+.
+
+.
+
+.
+.
+.
+
+
+.
+
+.
+
+.
+
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+\.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+
+
+
+
+.
+.
+.
+.
+.
+
+.
+.
+
+.
+
+.
+.
+
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+
+..
+
+
+.
+.
+.
+.
+
+.
+.
+
+
 
